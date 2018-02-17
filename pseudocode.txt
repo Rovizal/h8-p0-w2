@@ -1,0 +1,39 @@
+///NUMBER 1
+STORE "Newton" without any value
+STORE "m" = 600kg
+STORE "a" = 2m/s2
+CALCULATE "m" times "a"
+SET "Newton" value with the calculation result
+DISPLAY "Newton"
+
+/// NUMBER 2
+STORE "YEARS" to any NUMBER
+DISPLAY "YEARS"
+CALCULATE "YEARS" mod 4
+  STORE "result1"  to the CALCULATION result
+CALCULATE "YEARS" mod 100
+  STORE "result2" to the CALCULATION result
+CALCULATE "YEARS" mod 400
+  STORE "result3" to the CALCULATION result1
+
+IF "result1" "result2" "result3" equal to 0
+  DISPLAY "KABISAT"
+IF "result1" equal to 0 and "result2" not equal to 0
+  DISPLAY "KABISAT"
+   ELSE
+  DISPLAY "NOT KABISAT"
+
+///NUMBER 3
+STORE "FOXIE" by 0
+IF "FOXIE" < 20
+  DO ADD by 1
+DISPLAY "FOXIE"
+
+
+// NUMBER 4
+STORE "STUDENTS NAILS" by 40
+CHECK "STUDENTS NAILS"
+IF "STUDENTS NAILS" equal to LONG
+ DISPLAY "BAD STUDENTS"
+ELSE
+ DISPLAY "GOOD STUDENTS"
